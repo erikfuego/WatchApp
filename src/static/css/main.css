@@ -1,0 +1,52 @@
+.container {
+ padding: 10px;
+}
+
+.time {
+ width: 450px;
+ height: 200px;
+ font-size: 90px;
+ padding: 50px;
+}
+
+.buttons {
+ margin: auto;
+ width: 325px;
+ padding: 10px;
+}
+
+.start-stop {
+ margin: 0 auto;
+ width: 300px;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.start-stop-btn {
+ width: 125px;
+ margin: 0 auto;
+}
+
+.reset-btn {
+ padding: 10px;
+}
+
+.title {
+ font-size: 50px;
+ color: white
+}
+
+.footer {
+ margin-top: 20px;
+ text-align: center;
+}
+
+.footer-note {
+ color: grey;
+}
+
+table, th, td {
+  border: 1px solid black;
+}

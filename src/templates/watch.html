@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container" align="center">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Timer</h2>
+
+            <h2 class="time" id="timer">00:00.000</h2>
+
+            <div class="buttons">
+                <div class="start-stop">
+                    <button type="button" id="startButton" class="start-stop-btn btn-success btn-lg">START</button>
+                    <button type="button" id="stopButton" class="start-stop-btn btn-danger btn-lg">STOP</button>
+                </div>
+                <div>
+                    <button type="button" id="resetButton" class="reset-btn btn-dark btn-lg btn-block">RESET</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <table style="width:100%" id="data-table">
+                <tr>
+                    <th>Participant</th>
+                    <th>Time Taken</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
